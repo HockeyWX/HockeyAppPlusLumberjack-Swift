@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BITHockeyManagerDelegate 
         BITHockeyManager.shared().start()
         BITHockeyManager.shared().authenticator.authenticateInstallation()
         
-        
+        print("One two three four five")
         
         // add Xcode console logger if not running in the App Store
         if BITHockeyManager.shared().appEnvironment != .appStore {
